@@ -45,3 +45,7 @@ ZFPopupMenu *popupMenu = [[ZFPopupMenu alloc] initWithItems:[self menuItems]];
 ```obj-c
 [ZFPopupMenu setMenuBackgroundColorWithRed:0 green:0 blue:0 aphla:0.2];
 ```
+### SetSeparationLineColor
+```obj-c
+[ZFPopupMenu setSeparationLineColor:[UIColor grayColor]];
+```
