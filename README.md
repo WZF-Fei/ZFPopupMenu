@@ -4,7 +4,7 @@ popupMenu can support for the layout type of Horizontal or Vertical.
 ## Example:
 
 <p align="center" >
-<img src="https://github.com/WZF-Fei/ZFPopupMenu/tree/master/Example/ZFPopupMenuExample/src/ZFPopupMenuGif.gif" width="266" height="500"/>
+<img src="https://github.com/WZF-Fei/ZFPopupMenu/tree/master/Example/ZFPopupMenuExample/ZFPopupMenuGif.gif" width="266" height="500"/>
 </p>
 
 ##How to user ZFPopupMenu?
