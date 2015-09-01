@@ -8,10 +8,10 @@ add the "ZFPopupMenu" folder in your project.
 ##Create Horizontal popupMenu.
 ### 1. create PopupMenuItem
 ```obj-c
-    ZFPopupMenuItem *item1 = [ZFPopupMenuItem initWithMenuName:@"新建"
-                                                         image:[UIImage imageNamed:@"图标1"]
-                                                        action:@selector(test1)
-                                                        target:self];
+ZFPopupMenuItem *item1 = [ZFPopupMenuItem initWithMenuName:@"新建"
+                                                     image:[UIImage imageNamed:@"图标1"]
+                                                    action:@selector(test1)
+                                                    target:self];
 ```
 ### 2. ZFPopupMenu init
 Horizontal:
@@ -36,7 +36,7 @@ ZFPopupMenu *popupMenu = [[ZFPopupMenu alloc] initWithItems:[self menuItems]];
 [ZFPopupMenu setMenuBackgroundColorWithRed:0.6 green:0.4 blue:0.2 aphla:1];
 ```
 
-### SetHighligtedImage
+### SetHighlightedImage
 ```obj-c
 [ZFPopupMenu setHighlightedImage:[UIImage imageNamed:@"cancelBg"]];
 ```
